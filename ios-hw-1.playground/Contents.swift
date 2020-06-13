@@ -5,17 +5,17 @@
  
  */
 
-let name = "Ahmad"
+var name1 = "Ahmad"
 
-name = "Salem"
+var name2 = "Salem"
 
 
-var myWeight = 60
+var myWeight = 60.0
 var FriendWeight = 80.5
 var height = 1.5
 
 
-var weightSum = myWeight + FriendWeight
+var weightSum: () = myWeight = FriendWeight
 
 
 
@@ -38,37 +38,37 @@ var bmi = myWeight * (height * height)
  */
 
 //Person 1
-var firstName1 = ""
-var lastName1 = ""
-var email1 = ""
-var phoneNumber1 = ""
-var age1 = 0
-var country1 = ""
-var area1 = ""
-var password = ""
-var isKuwaiti = false
+var firstName1 = "moudhi"
+var lastName1 = "albakhit"
+var email1 = "moudhialbakhit@gmail.com"
+var phoneNumber1 = "99022813"
+var age1 = 16
+var country1 = "kuwait"
+var area1 = "abdallah mubarak"
+var password1 = 44112233
+var isKuwaiti1 = true
 
 //Person 2
-
-
-
-
-
-
-
-
-
+var firstName2 = "mariam"
+var lastname2 = "alali"
+var email2 =  "mariamalali@gmail.com"
+var phoneNamber2 = 99045623
+var age2 = 17
+var country2 = "kuwait"
+var area2 = "suth surra"
+var password2 = 12341234
+var isKuwaiti2 = true
 
 //Person 3
-
-
-
-
-
-
-
-
-
+var firstName3 = "manal"
+var lastname3 = "alsanad"
+var email3 = "maanalals@gmail.com"
+var phoneNamber3 = 558956782
+var age3 = 15
+var country3 = "kuwait"
+var area3 = "alzhra"
+var password3 = 3454546
+var isKuwaiti3 = true
 /*
 - - - -
 # المطلوب الثالث
@@ -81,4 +81,12 @@ var isKuwaiti = false
  * قارن اذا عمر الاشخاص لا يساوي  ١٧
 
  
+ 
+ 
  */
+(age1 == age2 || age2 == age3 || age3 == age1)
+(area1 == area2 || area2 == area3 || area3 == area1)
+(18 > age1, age2 , age3)
+(18 < age1, age2, age3)
+(17 == age1, age2, age3)
+(17 != age1, age2, age3)
